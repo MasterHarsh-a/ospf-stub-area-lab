@@ -13,7 +13,6 @@ Area 0  |------ Area 1 (stub) ------|
         (ABR)
 ```
 ![Network Topology](images/Screenshot%202026-07-04%20171848.png)
-https://github.com/MasterHarsh-a/ospf-stub-area-lab/blob/main/Screenshot%202026-07-04%20171848.png
 
 | Router | Role | Loopback |
 |---|---|---|
