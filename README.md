@@ -12,7 +12,7 @@ R5 ---- R6 ---- R7 ---- R8
 Area 0  |------ Area 1 (stub) ------|
         (ABR)
 ```
-![Network Topology](images/Screenshot%202026-07-04%20171848.png)
+![Network Topology](Screenshot%202026-07-04%20171848)
 
 | Router | Role | Loopback |
 |---|---|---|
