@@ -79,5 +79,4 @@ python scripts/interface_status_via_jump.py R6
 
 Credentials in `router-configs/*.txt` are lab-only placeholders
 (`cisco123`) and are not sensitive - this is an isolated GNS3 lab with no
-real-world exposure. Real credentials for the automation scripts are read
-from environment variables via `.env` (gitignored), not hardcoded.
+real-world exposure.
