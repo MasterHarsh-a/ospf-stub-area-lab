@@ -1,0 +1,30 @@
+! R8 - Area 1 (stub)
+!
+hostname R8
+ip domain-name lab.local
+!
+username admin privilege 15 secret cisco123
+!
+interface Loopback0
+ ip address 4.4.4.4 255.255.255.255
+!
+interface FastEthernet0/0
+ description Link to R7 - area 1 (stub)
+ ip address 10.0.34.2 255.255.255.252
+ ip ospf network point-to-point
+ no shutdown
+!
+router ospf 1
+ router-id 4.4.4.4
+ network 4.4.4.4 0.0.0.0 area 1
+ network 10.0.34.0 0.0.0.3 area 1
+ area 1 stub
+!
+line vty 0 4
+ login local
+ transport input ssh
+!
+crypto key generate rsa modulus 1024
+ip ssh version 2
+!
+end
