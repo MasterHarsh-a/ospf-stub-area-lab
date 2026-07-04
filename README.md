@@ -12,7 +12,7 @@ R5 ---- R6 ---- R7 ---- R8
 Area 0  |------ Area 1 (stub) ------|
         (ABR)
 ```
-![Network Topology](https://github.com/MasterHarsh-a/ospf-stub-area-lab/blob/e1be7002ad12fb5537de6e2e39a4dc5be4f0e6a6/Screenshot%202026-07-04%20171848.png))
+![Network Topology](https://github.com/MasterHarsh-a/ospf-stub-area-lab/blob/e1be7002ad12fb5537de6e2e39a4dc5be4f0e6a6/Screenshot%202026-07-04%20171848.png)
 
 | Router | Role | Loopback |
 |---|---|---|
